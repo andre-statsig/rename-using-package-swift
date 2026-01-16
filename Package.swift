@@ -12,14 +12,14 @@ let package = Package(
             targets: ["RenameUsingPackageSwift"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/andre-statsig/rename-sdk.git", from: "1.0.0")
+        .package(url: "https://github.com/andre-statsig/rename-kit.git", from: "1.0.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "RenameUsingPackageSwift",
-            dependencies: [.product(name: "RenameKit", package: "rename-sdk")]
+            dependencies: [.product(name: "RenameKit", package: "rename-kit")]
         ),
         .testTarget(
             name: "RenameUsingPackageSwiftTests",

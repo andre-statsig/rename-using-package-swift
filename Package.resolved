@@ -1,13 +1,13 @@
 {
-  "originHash" : "228f5014803092930c26c044a2a56904e0d0e4bccbe773057bcbed932e80b6ef",
+  "originHash" : "d8da1282993419d598364299bc5721e7b136e130e63ac2e32cdf17159ea65fd5",
   "pins" : [
     {
-      "identity" : "rename-sdk",
+      "identity" : "rename-kit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/andre-statsig/rename-sdk",
+      "location" : "https://github.com/andre-statsig/rename-kit.git",
       "state" : {
-        "revision" : "ffb95cff2be4d65394cc13a8cdc7bcb8deb56f7f",
-        "version" : "1.0.0"
+        "revision" : "399a50d47b66eee5723e7e2415e6be5368ec9eb3",
+        "version" : "1.0.1"
       }
     }
   ],
